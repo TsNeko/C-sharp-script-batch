@@ -1,0 +1,23 @@
+===========================================================================
+Title: cs_script.bat on Windows Command Line
+
+- cs_script.bat  new.cs  /c
+- cs_script.bat  new.cs  /c  Parameter1
+- cs_script.bat  err.cs  /c
+
+
+===========================================================================
+Title: cs_script.bat on Windows Explorer
+
+- Double click  new.cs
+- Double click  err.cs
+
+
+===========================================================================
+Title: cs_script.sh on bash
+
+- ./cs-script  new.cs
+- ./cs-script  new.cs  Parameter1
+- ./cs-script  err.cs
+
+

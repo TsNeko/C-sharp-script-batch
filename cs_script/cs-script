@@ -1,0 +1,14 @@
+#!/bin/bash
+cs=$1
+exe=${0%/*}/Program.exe
+if [ -e "$exe" ];then
+	rm $exe
+fi
+
+mcs $cs -out:$exe
+
+if [ -e "$exe" ];then
+	shift
+
+	mono $exe $*
+fi
